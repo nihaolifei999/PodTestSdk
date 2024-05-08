@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary     = 'PTPodTestSdk.'
   s.description = 'PTPodTestSdk desc'
   s.ios.deployment_target  = '9.0'
-  s.dependency 'AFNetworking', '~> 3.0'
+  # s.dependency 'AFNetworking', '~> 3.0'
   s.frameworks  = 'Accelerate', 'AdSupport', 'AppTrackingTransparency', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'ImageIO', 'QuartzCore', 'SafariServices', 'Security', 'StoreKit', 'SystemConfiguration', 'WebKit'
   s.libraries   = ["z", "sqlite3"]
   # spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
