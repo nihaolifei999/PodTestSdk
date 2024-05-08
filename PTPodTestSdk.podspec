@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.summary     = 'PTPodTestSdk.'
   s.description = 'PTPodTestSdk desc'
   s.ios.deployment_target  = '9.0'
+  s.dependency 'PTPodTestCore', :git => 'https://github.com/nihaolifei999/PodTestCore.git'
   # s.dependency 'AFNetworking', '~> 1.0'
   s.frameworks  = 'Accelerate', 'AdSupport', 'AppTrackingTransparency', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'ImageIO', 'QuartzCore', 'SafariServices', 'Security', 'StoreKit', 'SystemConfiguration', 'WebKit'
   s.libraries   = ["z", "sqlite3"]
